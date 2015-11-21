@@ -35,7 +35,7 @@ public class CreateArena extends SubCommand {
 				.replace("%arena%", args[0])
 				.replaceAll("&", "§"));
 		
-		return CommandResult.SUCCES;
+		return CommandResult.SUCCESS;
 	}
 
 	@Override
